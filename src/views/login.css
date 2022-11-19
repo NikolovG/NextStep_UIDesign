@@ -1,0 +1,188 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-container1 {
+  width: 100%;
+  height: 1003px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6295b5;
+}
+.login-container2 {
+  width: 100%;
+  height: 137px;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.34);
+}
+.login-text {
+  color: rgb(255, 255, 255);
+  width: 651px;
+  height: 51px;
+  font-size: 50px;
+  font-style: normal;
+  text-align: center;
+  font-family: Baloo 2;
+  font-weight: 500;
+  padding-bottom: 0px;
+  text-transform: capitalize;
+}
+.login-text02 {
+  font-style: italic;
+}
+.login-container3 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-textinput {
+  width: 286px;
+  margin-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.login-textinput1 {
+  width: 288px;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.login-container4 {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.login-navlink {
+  color: #ffffff;
+  width: auto;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Fira Sans;
+  font-weight: 500;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgb(84, 168, 245);
+}
+.login-navlink1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-family: Fira Sans;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
+  padding-left: 0.5rem;
+  text-decoration: none;
+  background-color: rgb(84, 168, 245);
+}
+.login-steps {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.11);
+}
+.login-text03 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.login-container5 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.login-container6 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.login-step {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.login-text04 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.login-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.login-step1 {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.login-text09 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.login-text11 {
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+.login-container7 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.login-step2 {
+  display: flex;
+  padding: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  flex-direction: column;
+}
+.login-text14 {
+  color: var(--dl-color-gray-900);
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: -30px;
+}
+.login-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+}
+@media(max-width: 1200px) {
+  .login-navlink {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .login-navlink1 {
+    background-color: rgba(0, 0, 0, 0.18);
+  }
+}
